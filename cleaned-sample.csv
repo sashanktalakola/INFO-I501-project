@@ -1,0 +1,742 @@
+processed_text,updated_tags
+"Photo by Kevin Ku on Unsplash
+The word dummy means the act of replication In the field of data science it holds the same meaning The whole art of dummifying variables in data science is the process of transforming the variables into a numerical representation
+Data scientists analysts or programmers often come across such datasets that include a categorical variable This variable is of utmost importance in scenarios where the dependent variable is bound to consider the categorical variable for analysis or prediction
+In this article we will learn how we can dummify the variables easily in less than a minute! As the title suggests I will be using Gretl for transforming the variables For those who are new to Gretl can understand it as a tool that performs machine learning operations without involving coding from the user side If you are interested in learning a bit more about it please check this link out
+Having said this lets start with the process of creating dummy variables Excited to dive deeper Lets get started!!
+Installing Gretl
+I am assuming all of us do not have Gretl installed on our machines so we will begin with the installation first The installation is very simple All you have to do is google how to install it But if you dont want to waste your time looking for a credible source follow the link given here
+The installation begins with a simple setup Just follow the default settings and youll be good to go Now lets move on to the next section where we select a dataset for the operation
+Choosing The Dataset
+You can take any dataset which includes a categorical variable I have used a simple one which can be downloaded from here A sample screenshot of the dataset is attached below:
+As you can see in the image above Gender is a categorical variable with two distinct categories: Men and Women We will be transforming this variable in the next step
+Creating dummy variables
+Welcome to the last section of this article which talks about dummy variables We will use a step by step procedure for creating the dummy variables Just follow the steps given below and the task will be done in no time:
+Step : Open Gretl
+Initially the Gretl screen looks like this If you have installed it successfully then you should have a similar screen like the image above Now lets import our data
+Step : Importing the data
+Just follow the screenshot given below to import your existing data Also if you have imported a file before and want to use it again Gretl shows a list of those files when you are trying to import it In the image below I have drawn a purple box to highlight them
+After you have successfully imported the file the screen will look like the image given below:
+You can see the columns of the dataset are listed here Now we will move to our main goal and dummy the Gender variable
+Step : Dummy Variables on the way!
+To create the dummy variables go to the desired variable right-click on it and choose dummify If you are confused about how to do it refer the screenshot below:
+After you are done with this a pop up appears that asks you to choose the option of whether encoding all of them of skipping the highest or lowest
+I have chosen the encode all option in the following image Feel free to choose the one that suits your problem requirements
+After you are done with this Gretl creates some default names for the variables and encodes them The encoding by Gretl is shown below:
+Step : Renaming the dummy variables
+This section is optional and feel free to skip it Here we will learn how we can rename the default variables chosen by Gretl Normally I prefer to rename the default values so that it is easier for me to interpret
+All you have to do is right-click on the name you want to change - Edit attributes and follow the image shown below:
+Change the field Name of the variable and youll be good to go I have changed the name for both the variables And the final thing looks something like:
+Hurrah! We have successfully changed the variable names after creating the dummy variables I hope this was an exciting journey for all the data science enthusiasts
+I look forward to meeting you all again Until then Happy Reading!!","['Machine Learning', 'Data Science']"
+"When Matthew Mellon tragically passed away in Mexico in  the cryptocurrency community lost an important investor and supporter Matthew was a prominent heir of the powerful Mellon family of bankers and he inherited more than just monetary wealth he was an early Bitcoin investor who reinvested his profits into Ripple the competing blockchain-based cryptocurrency that trades under the XRP symbol At one point Mellons XRP holdings were valued at more than a billion dollars and the private key to his cryptocurrency wallet may have been irretrievably lost with his death
+
+Lost Passwords and Lost Cryptocurrency
+
+The issue of lost digital currency passwords has been around since Bitcoin was launched nearly a decade ago It is difficult to determine the exact amount of cryptocurrency currently frozen or inaccessible due to private keys or physical wallets that can no longer be retrieved A few years ago the story of an early digital currency miner who accidentally threw away a hard drive containing the cryptographic private keys to more than  million worth of Bitcoin that man has unsuccessfully petitioned his municipal council for permission to excavate the local landfill even offering the city a  percent finders fee
+
+The landfill story above was even parodied on an episode of the hit HBO comedy series Silicon Valley and the New York Post has compiled various stories about lost cryptocurrency passwords
+
+Understanding the Security Methods of Cryptocurrency Wallets
+
+Most digital currency holders are not aware of the public and private keys that define the tokens stored in their online physical and portable wallets These -bit character strings are difficult for most people to remember unless they are photographic memory savants for this reason digital currency wallets are accessed by simpler password and PIN combinations Some USB cryptocurrency wallets feature biometrics devices such as fingerprint scanners and security experts believe that this could become a widespread protocol in the near future
+
+Some USB cryptocurrency wallets feature biometrics devices
+
+As to what will happen to the tokens frozen by the loss of passwords the only problem they pose is that they will not enter circulation Should XRP become an accepted digital currency that can be used for retail purchase transactions the  billion locked into the Matthew Mellon estate will not be able to circulate but this will not add or take away liquidity from the cryptocurrency market
+
+In the end the future of biometrics as a standard security feature for digital currency wallets cannot come soon enough but there will also be estate planning issues to consider #cryptocurrency #DigitalCurrencies #Keys #Passwords #Wallets",['Cryptocurrency']
+"I like five year goals The time line is far enough away to be useful  you can do pretty much anything in five years Its close enough to be meaningful  you can hold five years in your head
+My life took a big pivot just about five years ago I made some goals for myself that year Big goals that changed my life In the last five years Ive finished graduate school started a six-figure business gotten completely out of consumer debt and sold two novels to a major publisher
+Those were my five-year goals
+Now that its been five years I thought it would be interesting to look back at my  goals and think about how they went
+Five years ago all I really wanted was to be a writer again
+My last book had published two years earlier in  My publisher had declined to offer me a contract for the third book in my series That meant that my whole career as a novelist at that point consisted of two-thirds of what felt to me like a failed trilogy
+I was working as a teachers assistant in a special needs high school classroom The teacher I worked under was burned out and frustrated I earned two dollars less per hour than my son did at his Walmart job
+I was miserable For the first time in my life (almost literally) I wasnt writing fiction At all
+I knew two things I needed to get out of my job situation and the best chance I had for doing that was to write another book One that would sell and give me an advance that would let me quit and just be a writer again for a while
+I had a blog at the time It was called Going Reno and it was the only writing I was still doing at the time It was a lifestyle-type blog for disorganized people but I decided to write a novel and to blog about it every week Step-by-step
+That series even though it had nothing to do with the topic of my blog caught fire Those posts were by far the most popular Id ever written People were joining my email list so they could get the next installment
+These were my goals in 
+I wanted to quit my job with the school district
+I wanted to write a book that would help me find another agent (Id cut ties with mine in )
+I wanted that book to sell to a publisher
+I wanted to turn my blog series about writing a novel into a class
+I wanted that class to make  a year
+I wanted to be out of consumer debt
+I wanted  people on my email list
+I wanted to finish my degree
+When I looked at that list of goals I saw one connective thread that wove through them all My overarching five-year goal was to design my life in such a way that I never had to have a crappy day job again
+Five years ago I created a roadmap to get me there
+My overarching goal has not changed The roadmap to it has
+There are things happening in my life today that I couldnt have predicted in 
+I had zero idea for instance that my husband and I would move our family to Pennsylvania in  That wasnt anywhere at all on my radar Talk about a roadmap change
+That move happened because our rent in Reno went up by  percent in the same week that my husband was laid off of his job Another roadmap change that we didnt see coming We loved Reno and werent thinking about a major move at all
+Ninja Writers started out to be a way for me to get out of my terrible day job so that I could be a writer again I knew I was going to teach a class but I thought it would all be in service of me getting to where I could support my family with novels
+I didnt know that Id love teaching so much Or that the community that came out of Ninja Writers would be so extraordinary
+That list of five-year goals represented my givens
+Your five-year goals are the things you know you want Theyre pretty permanent
+While I couldnt have known which book Id write and sell there was very very little chance that sometime in five years Id decide that I didnt want to be a writer at all anymore Same goes with quitting my crappy day job or building an audience or earning a decent living
+My five-year goals were my givens
+It started with quitting my job That was my highest priority because it was the thing that was causing me the most trouble in the moment Because that marker was so close to the start of my journey it was a pretty straight shot
+I didnt need to replace much income since my job had such low pay I was willing to quit the moment I had the income replacement  I was confident that Id be able to earn enough the next month or find another barely-above-minimum-wage job to replace the one I was giving up if I had to
+The book goal as is the nature of this type of goal was a windier road I wrote two young adult books in the first two years One landed me an agent who started to send it out to publishers and then promptly decided she wasnt going to represent YA books anymore The other got some attention but no bites
+This is a good example of a goal where I had some control but not enough to make it happen on my own timeline I could control my work ethic I wouldnt control whether someone else wanted to represent my work
+My education goal took time but was a pretty straight shot I took classes at UNR and got within  credits of my BA  and then was offered a place in an MFA program I graduated with my MFA in  That was a pretty straight forward goal that really only required me to show up and do the work
+What I couldnt anticipate was that Id write a middle grade book during my MFA program that would finally help me meet my publishing goals I signed with an agent in  and she sold that book
+I couldnt have anticipated in  that Ninja Writers would become a membership community and that Id stop selling that big how-to-write-a-novel class with big launches I didnt even know that membership communities were a thing
+I reached my business goals  just not in the way that I thought I would Mostly because until I got on the road I had no idea the side trips and road stops Id take I also had no idea which detours I might come up against
+But I did know where I was going
+So what are your five-year goals
+How you get to them might change There are things you just cant anticipate five years out or even five months or weeks But if you have a clear idea of what those markers are  your givens  then youll continue to move toward them
+If I want to go visit my family in Las Vegas the easiest thing is to get on an airplane in Buffalo and get off it in Las Vegas But maybe I want to drive there In that case I basically get on the highway and head due west if I want the easiest route
+But maybe things happen
+I could head north first and drive through Canada Or south and make my way through Mexico It would take a long time but Id still get there As long as I head southwest or northwest
+I could even head east and Ill get there as long as I keep going long enough
+The problem would come if I get started south and never made it to my westward markers
+Its a given that if I want to get from Pennsylvania to Nevada I have to make it west in some way If nothing pulls me west I could find myself driving around and around the world (metaphorically speaking!) without ever getting close to Nevada
+Your five year goals keep you headed in the right direction  one way or the other You need to know your givens They are your guiding lights",['Writing']
+"With the holidays rapidly approaching people are looking forward to having some time off from work Typically the last few weeks of the year are a time to rest to reset and to reconnect with friends and loved ones This year however for myriad reasons some people may feel uncomfortable requesting time off from work Maybe they have been working from home and their manager likens this to already being off Others may fear that taking vacation will highlight that they are replaceable in their role or may be perceived as a lack of enthusiasm for their job
+It is deeply entrenched in the American culture for employees to work hard even to the detriment of their own mental and physical health It is deemed admirable for them to miss sleep or meals in order to complete a project To this end Americans take less vacation work longer days and retire later in life It is the only industrialized country in the world that has no legally mandated annual leave
+Within this workplace culture stereotypes of Black peoples laziness their poor work ethic and lack of team spirit have often been perpetuated Although these assertions have been proven to the contrary non-Black managers and supervisors often foster these beliefs resulting in overworked Black employees who forego vacation as they feel the need to outperform their peers
+The main tenet of a capitalist society is that maximum productivity equals maximum profit In such a system there are workers and there are managers When race class and workforce intersect there is a societal understanding that people of color should constantly be at work overwhelmed and inundated with tasks Even when Black individuals obtain higher education having the right to navigate their time is still elusive The idea remains that Black professionals must work  days per week hours per day to make up for being successful For professional Black people the paradigm shifts from the policing of their physical body and space in the work environment to the policing of their time
+Dr Rasul Mowatt professor of American Studies at Indiana University Bloomington states that Leisure is primarily a tool of capitalism Leisure is also a tool of white supremacy It articulates power in society in a certain way who has it and who does not and who has the right to wield it A recent episode of the current affairs platform Vox highlighted the pivotal role that the desegregation of American beaches and pools played in the Civil Rights movement During these protests also known as wade ins activists swam in White-only pools and beaches and were confronted by police brutality In one instance the owner of a hotel in St Augustine Florida threw hydrochloric acid on activists who were staging a protest These acts of civil disobedience highlighted the unequal access to recreation and leisure In many cities the designated Black beaches and pools were inaccessible to the community and oftentimes polluted
+Unfortunately decades later people of color around the globe are still fighting for the right to relax One Sunday morning my husband and I decided that we needed a reset We drove to a day spa in one of the fancier neighborhoods in Hamburg We exercised had massages and ventured down to the sauna and steam rooms Hours later I emerged from the facility feeling refreshed and invigorated Yet in a city with one of the largest Arab and African populations of varying socioeconomic classes I was the only non-White person in the spa There were stares and glares from the other guests Lo! The audacity to be young Black and enjoying my leisure time as I deemed fit!
+It is important now more than ever for Black professionals to take time from work to reap the physical and psychological benefits of rest and leisure Black women wont only be confined to other peoples kitchens or nurseries We will be right there in barre class holding a plank We will be in a cabana on a foreign beach We will be off at am on a Tuesday trying on a pair of shoes And we will be living well and having leisure which is in itself a revolutionary act
+Read more at am taar wellness https:wwwamtaarwellnesscomsubscribe",['Life']
+"Importing Google Sheet data to a Pandas DataFrame
+Google Sheets is a useful way to share data and collaborate remotely But transferring the data to environments such as Python on a regular basis can be burdensome This post will cover how to set up the latest Google Sheets API v as of June  for Python Well also cover how to extract data from a Google Sheet range (or even an entire sheet) into a Pandas data frame
+Before you start:
+Before you start youll need the following:
+Python  or greater (Python  recommended)
+Pippip package management tool (comes standard with Python    or Python   )
+A Google Account (and Google Sheet containing your data-of-interest)
+API Setup:
+First youll need to enable the Google Sheets API on your Gmail account where the Google Sheet is stored Login to your Gmail account and visit the Google Sheets API QuickStart Guide for Python Youll see a blue Enable Google Sheets API button Click on the button (marked as  in the image below):
+Image by author
+Select Desktop App from the dropdown menu (marked as  in the image below) and click Create (marked as  in the image below) This will create a client configuration which well need to set up the initial connection via the API:
+Image by author
+Click the blue DOWNLOAD CLIENT CONFIGURATION button (marked as  in the image below)
+Image by author
+You should now have a file named credentialsjson downloaded Youll need to move this file to your working directory
+Install Googles Client Library:
+Next well need to install Googles Client Library using pip:
+pip install  upgrade google-api-python-client google-auth-httplib google-auth-oauthlib
+NOTE: Rather than running the sample Python code Google provides in their guide well be using a modified version of their script
+Generating our API user tokens:
+First well set up our gsheetapicheck() function It looks for an existing tokenpickle file (which stores our user access and refresh tokens) If no tokenpickle file is found the function will prompt you to log into your Google Gmail account The credentialsjson must be present in your working directory to initiate tokenpickle creationrefresh The function will specify and return the credentials well use to make API calls:
+import pickle
+import ospath
+from googleauthoauthlibflow import InstalledAppFlow
+from googleauthtransportrequests import Request def gsheetapicheck(SCOPES):
+creds  None
+if ospathexists('tokenpickle'):
+with open('tokenpickle' 'rb') as token:
+creds  pickleload(token) if not creds or not credsvalid:
+if creds and credsexpired and credsrefreshtoken:
+credsrefresh(Request())
+else:
+flow  InstalledAppFlowfromclientsecretsfile(
+'credentialsjson' SCOPES)
+creds  flowrunlocalserver(port) with open('tokenpickle' 'wb') as token:
+pickledump(creds token) return creds
+NOTE: After completing the initial credentials setup we can discard gsheetapicheck() and load our tokens directly during future API calls Alternatively it may be beneficial to keep gsheetapicheck() because the function checks if our tokens are expired andor missing If the tokens are expiredmissing gsheetapicheck() will then initiate a refresh of the user tokens (by prompting you to re-login to your Google account) You can decide whether you want to continue using gsheetapicheck() or load the tokens directly
+Making the API call:
+Next well define a function that makes the API call and pulls the data we want from Google Sheets The pullsheetdata() function establishes the API call and pulls the data we want If no data is found the function will print No data found otherwise it will confirm the data has been retrieved by printing COMPLETE: Data Copied and return our data:
+from googleapiclientdiscovery import build def pullsheetdata(SCOPESSPREADSHEETIDRANGENAME):
+creds  gsheetapicheck(SCOPES)
+service  build('sheets' 'v' credentialscreds)
+sheet  servicespreadsheets()
+result  sheetvalues()get(
+spreadsheetIdSPREADSHEETID
+rangeRANGENAME)execute()
+values  resultget('values' )
+
+if not values:
+print('No data found')
+else:
+rows  sheetvalues()get(spreadsheetIdSPREADSHEETID
+rangeRANGENAME)execute()
+data  rowsget('values')
+print(""COMPLETE: Data copied"")
+return data
+NOTE: pullsheetdata() can be modified to define other API tasks such as appending data to a google sheet updating existing data or creating new spreadsheets
+Running our API call and saving the data as a Pandas DataFrame:
+Next we will need two pieces of information First we need to find and copy the ID of the spreadsheet-of-interest This can be found in the URL of your Google Spreadsheet (marked as  in the image below):
+Image by author
+Second well need the name of the spreadsheet tab from which well pull the data from Alternatively you can explicitly define the range of cells you want to retrieve if you wish to pull specific sections of data from the spreadsheet (examples provided below):
+#Pulls data from the entire spreadsheet tab
+RANGENAME  'spreadsheettabname!' or #Pulls data only from the specified range of cells
+RANGENAME  'spreadsheettabname!A:C'
+Finally well bring all of our code together by specifying our pullsheetdata() parameters running the functions and storing the retrieved data into a Pandas DataFrame Be sure to replace spreadsheeturlID  with the spreadsheet ID you copied and replace spreadsheettabname! with your spreadsheet tab name (and range if necessary):
+import pandas as pd
+SPREADSHEETID  'spreadsheeturlID'
+RANGENAME  'spreadsheettabname!' SCOPES  ' https:wwwgoogleapiscomauthspreadsheets' SPREADSHEETID  'spreadsheeturlID'RANGENAME  'spreadsheettabname!' data  pullsheetdata(SCOPESSPREADSHEETIDRANGENAME)
+df  pdDataFrame(data: columnsdata) df
+And now youre ready to explore your retrieved data within Python all without manually downloading or importing the dataset!","['Data Science', 'Programming']"
+"Have you ever awaken not feeling your being
+Cold in bareness one morning
+I found my body missing
+Out there my body wanders
+a passive walking corpse
+controlled by the strings of the social motion
+The cold breeze sways me
+in a vague routine of loneliness
+reflection safeguards
+my barren soul from expressive scars
+So if it is not too much to ask
+If you see her please tell me
+' dark hair soulless in her s
+I am waiting on the street
+breathing heavy cry
+sobbing out of the public eye
+repeatedly reciting that line
+Everything will be alright",['Poetry']
+"What is blockchain technology Is it the magic pill And should we pay attention to it Well you could write an encyclopedia on this topic In the light of the early adopters that subsequently talk technobabble First I wanted to write a different article about this topic a simpler piece that everyone can digest In this article we are going to talk very broadly about exactly where we are in  and what the future holds for those that pay attention to blockchain Following this we are going to publish a series of educational pieces that slowly introduce the concepts in the hopes that this bright future can be accessed by everyone Not just those who are technically adept
+Photo by Hitesh Choudhary on Unsplash
+The world we live in today ()
+During the months of lock down many people have taken to new hobbies and created new businesses Some perhaps took the opportunity to slow down and reflect on their life or watched a bucket load of Netflix series or got stuck down YouTube holes This has been the perfect environment for tech companies to expand their data sets exponentially And just when we are becoming polarised by our choices we become a more valuable commodity within the Social Dilemma (recommended watching)
+For me personally my morning starts with an educational video on YouTube (soon to be other platforms such as LBRY) This is not a new habit but one that has now become a daily habit instead of a weekly habit due to the new-found free time in the schedule Now Im fully aware that algorithms are serving me content to support my bias The key to this type of learning is when absorbing new information you must observe what lens you are viewing it through What is your filter
+My point here is that I was being served information about the traditional economic infrastructure and viewing this through my own blockchain filter Whilst learning from generational thought leaders in economics I was developing my own version of this puzzle People such as Ray Dalio Danielle DiMartino Booth Prof Steve Keen and Jeremy Rifkin all have a different point of view Interestingly they all make perfect sense
+In most cases older generations are apprehensive towards new technology However it is learning from the knowledge of older generations that has revealed the importance of generational experience Let me reiterate this point to give credit where credit is due The previous statement is only typical of gaussian distribution As there are many of our older generation  outside of the bell curve that have adopted new technology Moreover they have been the inventors the activists and the futurists that have passed the batten down through each generation
+With that said blockchain technology is still in its infancy and without generational experience to fall back on there are many (within this bell curve) who are apprehensive to adopt the technology Or perhaps don't see the need for a collective shift in how we interact with technology
+The Generational Gaps and Technology
+For the most part we live in a world that was created by the baby boomer generation That is the huge generational shift that accrued post WW And since we have not had any major world war since this we can broadly accept that the subsequent decades of prosperity and GDP was created through the post-war industrial revolution
+It was this generation that began their prime working years in the late s and s and lived through the creation of the world reserve currency  The US dollar  Since then we have experienced huge growth in gross domestic production and leaps of advancement in technology Although this economic stage had been set prior to the war The currency was not born until President Nixon removed the gold standard  in 
+For a deep dive watch my top  recommended educational videos at the end of this article
+Photo by NeONBRAND on Unsplash
+For brevitys sake I will shift gears from historical events It is not important what generation did what Moreover the context of this conversation relates to the amount of people within the workforce within a period in time
+The relative question to ask is  How do people behave who are in the middle of the bell curve (with respect to the generational workforce and global GDP)
+Generation X
+Born between  and  these are the first generation of people to mature in the world that was built by the baby boomers The working years of this generation roughly begin after  and this generation follows the path that was laid by the preceding generation with respect to how value is perceived and wealth is created This social standard has more or less existed up until this point in time At least in the western world
+Generation Y
+The millennials (Gen-Y: ) of which the lines are a little more blurred is where this topic gets interesting For the most part the early millennials have experienced huge technological transformations during our developing years in school and university This generation (and the previous) have lived through the analogue world and transformed it into a digital world  and did it fast!
+Photo by Austin Distel on Unsplash
+Generation Z
+The next two generations born after  are Gen Z and Gen Alpha And since they can only read about the analogue world in a history book (or most likely on a smartphone) they are much more open to accept the dichotomy that exists between the old system that has been created and the likelihood of a collective shift in society unfolding in front of them
+The Blockchain Generation
+In my life I have often heard baby boomers refer to the way things were Fortunately they have preserved their stories through nostalgia  such as records photos and film Fortunately this media allowed those memories to remain However technology marched on regardless Fast forward to today and you could compare this to a general populous resisting change  Although the change is clearly imminent
+This is the nature of all human beings To protect themselves and their herd We are herd mammals and any threat to the herd leads to the threat being expelled It is not until the minority becomes the majority that a new herd is formed Therefore in a generational sense this is worth paying attention to
+Although the creators of blockchain technology are the thought leaders of Gen-X and Gen-Y it is the preceding generations that will more openly accept and use the technology as if there was nothing that existed prior to this Interestingly this discussion always creates wild debates and strong opinions However opinions are like assholes and everyone has one We only need to follow the data to watch the trend unfold Luckily with blockchain we have publicly available data and on-chain analysis
+In conclusion
+As we have seen repeatedly time and time again through history technology marches on with or without those who accept it The cassette tape replaced the record which was replaced by the CD Whoever thought that all three mediums of distributing audio would become obsolete Of course they still exist because they have charm and an experience that people appreciate But it makes no economic sense to continue to use these methods of media And so the new generation adopts the latest technology as if the previous never existed
+Think about this for a second Undoubtedly there will be a point in time when generation Z has the largest amount of people in the workforce Moreover they will become the largest contributor to global GDP When blockchain technology advances to the point where it makes no economic sense to use the technology from its predecessors it will be adopted by default and so we have the blockchain generation Therefore it is now that todays working generation is marching on and building the foundations of a new world A world built on trust  transparency privacy and security efficiency and equal opportunity for prosperity Marching on with the help of blockchain technology
+A threat to our current way of life is scary  but it is happening Huge tech companies control everything! But we can prevent this Whilst pandemics grip the world and governments scramble to stay solvent there comes advancement through adversity Blockchain technology may or may not be the magic pill to all this But for certain it offers multifaceted solutions that are being implemented today As an individual a group a business or governments for that matter you are either on the train or you are at the station!
+The question is Which station are you marching towards
+Stay tuned for the next in this series as we answer the question  What is Blockchain
+Photo by Spencer Davis on Unsplash
+Join My Mailing List to stay in touch
+For a deep dive watch my top  recommended videos 
+The Third Industrial Revolution
+How the Blockchain is changing Money and Business
+The Hidden Secrets of Money
+How the Economic Machine Works
+The Princes of Yen","['Technology', 'Blockchain']"
+"AidCoin token supply decrease: what Kate Moss and deforestation have to do with it AidCoin Follow Nov     min read
+Following our posts about the current use of AID and DAI on AIDChain we decided to tell you how we decrease the AID token supply with the help of CharityStars AidCoins founding company which has been arranging charitable auctions with  international celebrities in support of  non-profits for the past  years
+Theres still a lot of work to be done to make crypto donations a mainstream practice despite the long list of their benefits eg taxation as opposed to fiat donations But CharityStars vast network of celebrities is our trump card on this rather long journey and we use it whenever possible
+Recently CharityStars has launched a charitable T-shirt campaign in collaboration with the fashion designer Vivienne Westwood which proved to be a great chance to spread the word about AidCoin and crypto charity: multiple world-class celebrities such as Kate Moss Celine Dion and others shared it on their social media Moreover its also become the first CharityStars campaign to affect the AID token supply and heres how","['Blockchain', 'Cryptocurrency', 'Bitcoin']"
+"Thank you for the moments
+when life felt unreal
+Moments when things felt
+okay normal sane
+Moments when the air was still
+and the world around us
+stopped spinning so quickly",['Poetry']
+"Leaders Series: Evelyn Hytopoulos at PolySwarm
+Issue   May  
+Evelyn Hytopoulos is Chief Economist  Data Scientist at PolySwarm
+Evelyn is a mathematical economist by training and joined the weird and wonderful world of cryptocurrencies and blockchain tech in January of this year when PolySwarm a new blockchain network approached her to help refine and implement their economic incentive model She brings a wealth of experience to her work and is excited to see cryptocurrencies integrated into purchasing and transacting habits as platforms and applications mature and evolve
+How did you first get involved in the cryptocurrency ecosystem
+As many people regretfully did I first heard about someone buying pizzas with Bitcoin in  and proceeded to disregard the topic for years Fast-forward to : cryptocurrencies and new uses for blockchain technology are springing up all over and many of my friends are already elbows deep in the industry
+Watching the growth of companies in the space it became clear that many of them were at risk of reaching a choke point that stunts their growth without proper market design and calibration As an economist with a background in macro- and micro-level market analysis and in working with incubators and scale-up tech companies making a move to the blockchain industry was a no-brainer
+The need for individuals with economic skills in the space is huge So when PolySwarm approached me in January to take hold of the market design outlined in the whitepaper and further develop and refine it into one that would perform efficiently and effectively I jumped at the opportunity
+What did you do before you got into crypto
+Prior to getting into cryptoblockchain my professional career carried me across four continents to work with private and public sector organizations both small and large As an economist working in evaluation and research I have a track record of using technically rigorous econometric evaluations to enable business growth process optimization increased value for money market development and much more through data-driven decision-making Industries that I have worked in include tech finance education health international development investment law and public policy
+What problem is your company PolySwarm solving Why do you feel passionate about this
+PolySwarm is the first decentralized marketplace where security experts build anti-malware engines that compete to protect you Think Bitcoin but instead of mining a global community of anti-malware experts converge and work together to best detect todays threats
+In doing so PolySwarm incentivizes rapid innovation in the Byr cyber threat intelligence space with precise economic instruments that reward a global community of security experts for timely and accurate malware identification
+Todays anti -virus and cyber security market is dominated by single-vendor offerings which often miss emerging threats PolySwarm brings enterprises consumers vendors and geographically-diverse security experts together into a single marketplace for more complete threat detection Experts craft and maintain competing software micro-engines that quickly identify the latest threats attempting to outperform their competition PolySwarms Proof of Work is threat detection accuracy: the market rewards experts who are best able to defend enterprises and end users
+Whats been the most interesting or inspiring experience youve had in the crypto thus far
+The excitement and drive in the cryptoblockchain space is infectious and perhaps the most inspiring thing is the collaborative spirit and willingness of people to share insights and lessons learned with other companies Advisors bring a mechanism for cross-pollination of ideas with everyones goal being the growth and stability of the industry as a whole This is especially true among the women in blockchain who continue to build a strong community with stellar credentials and expertise
+What are some ideas youre excited about and why do you think theyre transformative
+As an economist one of the most exciting developments with blockchain and cryptocurrencies is the use of smart contracts to program money This is and will continue to be an important disruption of the traditional market structure as smart contracts enable more flexibility in market design create greater efficiency in transactions and essentially eliminate existing barriers to entry for actors across the world
+What changes do you think cryptocurrencies and blockchain technology will accelerate in our world
+One of the things that I think will revolutionize many peoples lives in the near future is the use of blockchain technology to enable easier access to electronic money in the developing world In past years the primary solution to this problem was thought to be mobile banking However mobile banking relies on traditional centralized banking structures and remains stifled by high fees and the need for a direct transfer of funds between individuals and these institutions With blockchain-enabled exchange of virtual money we will see more peer-to-peer exchanges greater ease of access and more efficient transactions in these parts of the world that will ultimately have significant positive impacts on economies
+In the next several years we will continue to see changes in the way that blockchain companies are designed and the way they are received in the public eye This evolution will continue until the applications and services side of the market not only has a high degree of usability but also is simple enough for consumers to understand It is at this point that the industry will be integrated into purchasing and transaction habits in the economy standing next to traditional companies
+Thanks to Evelyn for participating! Connect with her on LinkedIn
+Note: The writer of this piece and editor of this publication (Meltem Demirors) holds PolySwarm (NCT) tokens You can view her token holdings and disclosures here","['Blockchain', 'Cryptocurrency', 'Bitcoin']"
+"Think feel act Its what we do as humans Once you really understand this cycle you can use this tool think-feel-act to not only understand why you do what you do but to get in touch with the thoughts and feelings that lead you to take action for your own life
+If you want:
+More self-confidence
+Higher Self-esteem
+To go for that promotion
+To not snap at your loved ones
+To speak to your perfect self with more kindness
+To heal your body
+To start that exercise or meditation practice youve been taking about
+All of this self-care all of this self-love it all starts with understanding the think-feel-act cycle and how to apply it to your one perfect human life
+All of our actions lead to results Our inactions do too
+For example if you speak your needs directly youre more likely to get what you want and need and you might drum up some more confidence in the process When you dont set clear boundaries you might find yourself rolling around in resentment when people cross your unspoken lines
+Action and inaction They all lead to results If you want to get unstuck to live your one precious human life with more confidence feel the power of your own worth to make bold decisions for your own deal healing and wellness youll want to get clear on why you do the things you do Why you take the actions you take
+Why awareness acceptance and action Our actions come from our feelings which come from our thoughts Its really vital to start with awareness because you cant change what you cant see
+If you dont understand the thoughts youre having that are leading to your feelings how will you ever really know why youre taking the actions youre taking When were planning actions for our lives its important to pause and look at this process as well
+Many well-intentioned plans to take action like starting to exercise to eat differently or to think and feel differently are made without taking a deep look at our thoughts and feelings
+How many of us have set New Years resolutions without really looking at our thoughts and feelings about the action were trying to take about the reasons why we havent been doing this thing all along
+Weve just jumped to action only to find ourselves not doing that thing like a week or a month or two months later All those people who were there in January are gone by March if they havent paused to ask the question gosh why havent I been exercising What are my thoughts about the gym How do those thoughts make me feel
+Again if in the back of your mind theres this thought well I should exercise that makes you feel maybe kind of resentful of it or like not really in Youre not going to be all in So youre not going to continue to take an action that you dont feel great about
+Youre smarter than that Why would you keep doing something you just dont want to do If you want to change your life to achieve your dreams to stop arguing with your partner or partners to not take life so seriously or to not take things so personally you get to pause To raise your awareness of your thoughts and feelings first before diving in to take action
+When you raise awareness of your feelings and accept that theyre happening you can take the action of creating some space between you and identifying with the feeling
+This is where your power lies my love You are not subject to your feelings
+You can take back control by learning to manage your mind To get curious about the thought and feeling youre having to ask yourself whats up to feel it in your body and to ground yourself in it Its so magical Its also the science of how our brains work You can choose your next thought Mind-blowing
+What happens for most of us is that we arent in touch with our feelings We dont pause to deeply feel them let alone pull back and find the thought thats leading to that feeling So we try to change the situation A circumstance When we feel feels wed rather not feel like anxiety frustration sadness feeling disrespected
+But the truth is that the situation has nothing to do with your feelings Your thought about it does
+Taking action to try to change the world things out of your control like people places and things  thats right nouns  will do nothing for how you feel if youre having the same old thought and thus the same old feeling
+Weight loss is a great example of this and before you send hate mail Im not about to talk about weight loss as a good thing Im not a proponent of weight loss as an inherent concept I am all about health at every size All bodies are amazing perfect incredible and good bodies
+I had a client Lisa who wanted to lose  pounds She did this through hating herself By not eating enough by working out really intensely She cut out healthy foods that she loved like sweet potatoes butter and steak All while thinking unconsciously that she would be lovable once she finally lost the weight
+Once she lost the weight she came to me more miserable than ever The scale had gone down but she still felt terrible about herself That was because sweet darling Lisa still had the same old thoughts The weight loss did nothing for her self-worth because it cant
+Lisa was trying to change her feelings about herself with an action To change a circumstance of her life To change her thought I dont love my body with an action That just doesnt work
+Loving your body is how you love your body Not by changing your body When you try to change the number when you try to take the action from a place of anger or shame it doesnt matter what the number is Itll never be good enough if its a stand-in for your value as a human
+If this issue of weight doesnt resonate for you fill in the blank Title at work income married with children You can put any false arbiter of value into this example and you can work towards it You can take action towards it from that place of believing that once you take enough action and do the thing you will be lovable While the truth is you are perfectly lovable now You just get to practice that thought
+Theres not an action in this world thats going to make you feel that until you decide to practice feeling it
+An action I often hear people trying to take is to change how you feel without connecting into the thought that leads to that feeling That too just doesnt work without the step of connecting in Feeling the feels in your body Having that somatic experience of them Ive tried it a thousand times and the result is always fleeting at best
+For example man I am so anxious at this wedding Im just going to pretend to be happy and thatll work right No It may work for a minute sure but you know this my darling Its a cover up job and youll soon have the same old feelings unless youre really pausing to look at your thoughts To ask why am I telling the story that Im so anxious at this wedding
+What is it about being here around these people on this day Whats the story Im telling What are my thoughts that are leading me to feel anxious And how would I rather feel
+This cycle think-feel-act think-feel-act is the background chatter of the human mind
+Trying to cover it up by changing how you feel without looking at the thought thats just going to keep it all rolling around in the background until you pause to investigate it So all of this about thoughts and feels leads us perfectly into the third arc of the process Action The question I long asked myself before thought work was why on earth did I do that
+I didnt know that my thoughts and my feelings were the driver That they were leading me to take action which takes us back to the central questions:
+Why do we do the things we do in this life
+Why do we snap at the people we love
+Why do we procrastinate
+Why do we make a situation so much more stressful by ruminating and rolling around in stress
+Why dont we act more confident
+Why dont we value ourselves
+Why dont I do the things I promise myself Ill do
+Why dont I take care of myself the way I say I want to
+Why dont I do all that self-care that makes me feel amazing
+Before I dive into answering all of that its so important for me to pause here to say you are not your actions
+If youre eating more than feels good not exercising drinking too much not speaking up for yourself if youre battling with anxiety and your anxiety- fueled choices know that its not you as a person Its your unmanaged mind at the helm
+I want you to pause before you beat yourself up for these actions and inactions It simply doesnt serve you my darling It gets you nowhere
+Remember your thoughts create your feelings lead to your actions so every time you think thoughts like why cant I do this why cant I make time for self-care Im the worst then youre going to feel bad about yourself The action youre going to take in response is to roll around in your self- defeating self-recriminating thoughts and not loving yourself just as you are and holding space for change
+I want to encourage you to do the ladder that is to pause breathe give yourself love care and gentleness Everything is okay my love Theres no problem here Youre just growing And yes thats painful and challenging Yes And let me tell you its so worth it
+What youre going through feeling like your actions are inexplicable is totally normal and common Most of us feel that way often Theres nothing wrong with you my love
+The way to shift the habits youve had in your life is learning to apply the think-feel-act cycle every single day
+Its new to most of us We arent taught this in school or even in therapy So logically your brain says if I do the thing Ill be worthy lovable You are completely and utterly perfect just as you are You dont need to change a darn thing to be a good person and you do get to make different decisions if you want to live this life in a different way
+You can start taking stock of the thoughts and the feelings they produce Knowing you take action based on how you feel at the time of taking action Everything you do or dont do is because of a sensation or feeling in your body which is such good news
+The more awareness you have of what your body is telling you the more information you have to guide you in understanding your actions
+Something I hear often is thinking that you took action because of the world and the situations and circumstances in it When in fact the more empowering truth is that you took action because of your very own thoughts
+An example of folks sort of getting that backwards that I see often is about responding to an urge or desire and blaming the situation Like you may feel the urge to eat food that you know makes you feel bad Weve all done this or something similar It makes sense if you dont understand whats driving your actions You have a desire a feeling that comes from a thought and you respond with an action Eating something having another drink hitting send raising your voice
+You respond without pausing because you blame the circumstance The situation They had just baked the cookies and they smelled so good I couldnt help myself
+Once you understand the think-feel-act cycle and begin to write these stories out you can see them clearly in black and white on paper You can know that the situation doesnt dictate your actions Not at all Your thoughts about it do
+You have a thought genius body responds with a feeling drives your action
+The reason you ate food that doesnt serve you wasnt because a cookie exists It was because you had a thought and a feeling so you did x y z and that action led to another thought another feeling and then another action
+For example you smelled the cookie you wanted the cookie you had a desire and a thought I want cookie Then you felt deprived because of your next thought I know Im not supposed to eat that Then you felt bad for yourself Poor me I am sensitive to the gluten and the sugars
+But you were having that thought you were feeling bad for yourself you were feeling deprived so you ate the cookie Then maybe felt guilty or shameful knowing that youre sensitive to the gluten and the sugars and that a belly ache a headache anxiety or joint pain are on their way
+So you have the thought well F it I already had one Another isnt going to make it that much worse And off you go for the second maybe the third maybe the fourth By now your biochemistry is spinning in a thousand different ways Your blood sugar is spiking and then plummeting and now you feel even worse about your choice
+You may be having the thought I can never stick to this plan Not eating gluten and sugar is impossible Im a failure and Im going to be sick forever which of course makes you now feel even worse about yourself which will drive another action
+Meanwhile had you paused and taken a deep breath you could have looked for an alternative thought like  sure cookies are super delicious But my body feels so much better without gluten and sugar
+It doesnt serve me to eat it so Im going to choose feeling really good in my mood in my digestion my skin et cetera versus the  seconds of pleasure from a cookie
+Then you can breathe until you feel calmer keep repeating the new thought that feels better for you until you can release the story that youre being deprived Because youre an adult and youre making this choice for yourself right
+You can get into more alignment with the choices that serve you Like skipping foods that lead to troublesome symptoms or general inflammation
+So key to this is being kind gentle and loving with yourself Please and thank you always Remember that mindfulness is a vital part of this work and as you get more adept at seeing what youre doing and asking yourself what am I thinking and feeling what action is this leading to youll start to gain some traction
+This will start to feel less weird and foreign and uncomfortable and awkward I promise
+Youll start to see results in your life when you take stock of your actions take accountability for them and realize once again the empowering truth that you are in control
+One of the greatest gifts of this work is knowing that youre not some terrible person who makes terrible decisions and takes inexplicable actions All of your actions are predicated on a thought that leads to a feeling so practicing noticing those unconscious thoughts is the key for taking back ownership of your life
+This applies to not doing things too If you have the thought Im not smart enough for that promotion youll feel less than and then you wont do what it takes to get to the next level If you dont feel confident in yourself you may not even apply to the job or go on the date or heck start your own podcast Your own life coaching practice
+The think-feel-act cycle can be applied to literally everything in this life my love As always it starts with awareness That is your homework Pay attention to the actions you take or demure from taking
+Ask yourself what you are thinking and feeling before taking action and after Write it down Rinse and repeat
+Youll start to see some fascinating patterns emerge in your life I know I have All of this looking at the think-feel-act cycle in our lives is self-care in action
+Yes get the massage Yes take a break with your friends Yes take a bath go walk in nature do the face mask From a place of true self-love Not taking action because youre not managing your mind In lieu of getting in touch with your thoughts and feelings because youre always stressed and anxious and reactive
+Yes to the self-care actions that are rooted in loving yourself and not covering up the feelings youd rather not deal with",['Life']
+"Light Functional JavaScript
+Refactor Nodejs Routes with Testable Functional Concepts like Composition Currying and Closures
+I love Nodejs! Its very fast lightweight and lets you spin up applications with just a few lines of code
+I remember reading about the Nodejs callback hell and how theres no escape from it
+Theres even a website called the callbackhellcom lol
+Whats funny is that most times I dont even realize how messy my code is until I try to test it
+Because I have no life I once tried to retrieve some of my gists from the Github API reduce them to their descriptions and URLs and sort them alphabetically by their description field
+No problem!
+Heres the mini express app
+An app with  lines of code amazing!
+Heres the hellish route which handles the gists logic I talked about
+Hell o
+Mmmm Im not even going to try testing it! I may add tests if you guys like this article and decide to punish me by insisting
+But wait there must be light at the end of the tunnel I cant leave my code untested!
+Could there be a way to simplify it
+What luck it turns out functional programming and good opinionated programming practices can help
+Lets refactor this code together!
+Step one separation of concern
+I dont like the fact that our code instantiates the Express route pulls in dependencies and handles business logic all at once Lets fix this!
+Voila!
+Separated root wiring form handling logic
+Express is expressing itself while we handle our route logic in the handleGistsRoute function
+Step two function currying
+Currying means to break down a function that takes multiple arguments into a series of functions
+HandleGistsRoute encapsulating its dependencies
+HandleGistsRoute results from the curried handleGistsRouteFactory which accepts a set of dependencies and returns another function ready to receive the gistsUrl from its caller the Express route
+The last function returned by the factory will get called by Express with the req res next arguments
+Wow this will take a while to sip in Maybe watch this videos about currying closures and higher order functions to understand the concepts better
+Unit tests use the handleGistsRouteFactory while the rest of the app uses the actual handleGists method precompiled with its dependencies (saving us the trouble of passing them around)
+Step three extracting pure functions
+Notice that handleGistsRouteFactory is now a pure function (almost because it calls next instead of returning output) receiving all its data through parameters (easy to mock in our tests)
+A pure function is a function where the return value is only determined by its input values without observable side effects
+My critical eye tells me that we can extract the description filtering and URL generating logic from our handleGistsRouteFactory
+This means we can extract the getDescription sortByName getNextUrlFactory and getNextUrl PURE functions from our handleGistsRouteFactory
+Stripped out factory
+We took quite a lot of the handleGistsRouteFactory shoulders The function does not worry about processing and sorting gists or about knowing which URLs to access anymore
+Already our function looks great But we can do much better!
+Step four async await
+Async await is syntactic sugar for promises allowing us to put more emphasis on what the code does instead of how
+Klein means small in German :)
+HandleGistsRouteFactory is now  lines of code sweet!
+The engineer in me sees lines  and  as possible candidates for recursion What if we could get as many gists pages as we wanted
+Step five over engineered recursion
+If it comes naturally to you recursion can be a great way to do declarative programming which IMO is a broader paradigm which includes FP as well
+Weve extracted the get gists logic into the async recursive over-engineered getGistsFactory just because we can!
+Browse the code for a minute I think its easier to read and I know its easier to test
+Step six Testing the beast
+Without further ado lets test with Jest! Ooo it rhymes!
+Thats it!
+Every method is tested and ready for production
+I used a quick and fancy method of mocking which you can read about here
+The code for this article is on Github please check it out
+I hope you enjoyed my article please clap if you did so others can notice it too!
+Everything you read is opinionated so please comment and share your ideas!",['Programming']
+"The Knowledge Ecosystem: New Updates Preview
+Wednesday May  
+Wed like to thank all our token buyers and our community at large for their participation and enthusiasm during our token sale We are pleased with the current progress and development of the Knowledge Ecosystem with several key rollouts coming over the next few weeks
+Development Updates
+On the development front weve improved some of the cloud security measures including encryption of sensitive data and all infrastructure security and monitoring The dev team has also begun work on the Knowledge mobile and web SDKs and has made improvements to the Knowledge Ads campaign monitoring dashboard where we are tracking impressions clicks and conversions for advertisers There have been multiple code quality and system reliability improvements as well We will be making a number of announcements regarding KnowledgeAds and the Knowledge Marketplace over the next few weeks
+Some additional Trivia Spar updates:
+The user points bug that was a critical issue is now resolved
+UIUX improvements
+Firebase push notifications have been integrated
+Improved monitoring and tracking of events
+Better question categorization
+Started improvements on questions difficulty level
+Launch of KnowledgeBot  Telegram Trivia Quiz Software
+Due to the success of our automated Telegram Trivia Quiz during our token sale we have decided to improve upon our initial project and make it available to the general public for usage on their own channels  groups
+The KnowledgeBot has several key functionalities all managed by one simple web-based dashboard We will be making an announcement this week regarding our first pilot participants
+KnowledgeBot functionality:
+Reward trivia winners with your ERC- or Waves-NG Token
+Reward trivia winners with KNW Tokens
+Custom automated messages based upon a schedule or user inquiries
+Attach images to automated messages
+Keep track of trivia users response stats and winnings
+Custom bot schedule  Trivia Quiz
+Custom trivia questions
+Join the conversation: https:tmeKnowledgeio",['Blockchain']
+"Photo by Viktor Talashuk on Unsplash
+Python is a convenient language thats often used for scripting data science and web development
+In this article well look at how to read and write files with Python
+Files and File Paths
+A file has a filename to reference the file It also has a path to locate the files location
+The path consists of the folder they can be nested and they form the path
+Backslash on Windows and Forward Slash on macOS and Linux
+In Windows the path consists of backslashes In many other operating systems like macOS and Linux the path consists of forward slashes
+Pythons standard pathlib library knows the difference and can sort them out accordingly Therefore we should use it to construct paths so that our program will run everywhere
+For instance we can import pathlib as follows and create a Path object as follows:
+from pathlib import Path
+path  Path('foo' 'bar' 'footxt')
+After running the code path should be a Path object like the following if were running the program above on Linux or macOS:
+PosixPath('foobarfootxt')
+If were running the code above on Windows well get a WindowsPath object instead of a PosixPath object
+Using the  Operator to Join Paths
+We can use the  operator to join paths For instance we can rewrite the path we had into the following code:
+from pathlib import Path
+path  Path('foo')'bar''footxt'
+Then we get the same result as before
+This will also work on Windows macOS and Linux since Python will sort out the path accordingly
+What we shouldnt use is the strings join method because the path separator is different between Windows and other operating systems
+For instance:
+path  ''join('foo' 'bar' 'footxt')
+isnt going to work on Windows since the path has forward slash
+The Current Working Directory
+We can get the current working directory (CWD) which is the directory the program is running on
+We can change the CWD with the oschdir function and get the current CWD with the Pathcwd function
+For instance we can write:
+from pathlib import Path
+import os
+print(Pathcwd())
+oschdir(Path('foo')'bar')
+print(Pathcwd())
+Then we get:
+homerunnerAgonizingBasicSpecialist
+homerunnerAgonizingBasicSpecialistfoobar
+as the output
+As we can see chdir changed the current working directory so that we can use manipulate files in directories other than the ones that the program is running in
+The Home Directory
+The home directory is the root directory of the profile folder of the users user account
+For instance we can write the following:
+from pathlib import Path
+path  Pathhome()
+Then the value of path is something like PosixPath(homerunner) 
+Absolute vs Relative Paths
+An absolute path is a path that always begins with the root folder A relative is a path thats relative to the programs current working directory
+For example on Windows C:Windows is an absolute path A relative path is something like foobar  It starts with a dot and foo is inside the current working directory
+Creating New Folders Using the osmakedirs() Function
+We can make a new folder with the osmakedirs function
+For instance we can write:
+from pathlib import Path
+Path(Pathcwd()'foo')mkdir()
+Then we make a foo directory inside our current working directory
+Photo by Lili Popper on Unsplash
+Handling Absolute and Relative Paths
+We can check if a path is an absolute path with the isabsolute method
+For instance we can write:
+from pathlib import Path
+isabsolute  Pathcwd()isabsolute()
+Then we should see isabsolute being True since Pathcwd() returns an absolute path
+We can call ospathabspath to returns a string with of the absolute path of the path argument that we pass in
+For instance given that we have the directory foo in the current working directory we can write:
+from pathlib import Path
+import os
+path  ospathabspath(Path('foo'))
+to get the absolute path of the foo folder
+We then should get something like:
+'homerunnerAgonizingBasicSpecialistfoo'
+as the value of path 
+ospathisabs(path) is a method that returns True is a path that is absolute
+The ospathrelpath(path start) method will return a string of the relative path from the start path to path 
+If start isnt provided then the current working directory is used as the start path
+For instance if we have the folder foobar in our home directory then we can get the path of foobar relative to the home directory by writing:
+from pathlib import Path
+import os
+path  ospathrelpath(Pathhome() Path('foo')'bar')
+Then the path has the value  
+Conclusion
+We can use the path and os modules to construct and manipulate paths
+Also we can also use the  with Path objects to create a path that works with all operating systems
+We can also path in paths to the Path function to construct paths
+Python also has methods to check for relative and absolute paths and the os module can construct relative paths from  absolute paths
+A note from Python In Plain English
+We are always interested in helping to promote quality content If you have an article that you would like to submit to any of our publications send us an email at submissions@plainenglishio with your Medium username and we will get you added as a writer","['Technology', 'Programming']"
+"What a leader 
+Thoughtful meaningful and detailed research of the governance and true impacts of charities before giving makes such a huge difference and if only our own government did this!
+Im writing from Thursday Island in Queensland Australia and our fires earlier this year showed this The outpour of support that followed then the court battles after- highlighted the requirement for research and asking all the hard questions before giving even though some of the people who started it had the best intentions
+So many dodgy charities out there paying staff and CEOs then only a small amount of pledges make it to the protected outcome
+Our group of islands dont have local recycling issues with ghost netting killing animals and feel the real impact of climate change while getting a lovely regular present of rubbish from overseas from the oceans coming together
+Come visit and check it out of you can Merry Christmas and stay safe everyone reading this",['Life']
+"Animating Your Bar Chart With Combine Messages
+Part  of Linking Animations Together to Build Bar Charts in SwiftUI
+Native Swift UI animated bar chart
+I wrote an article the other day in which I talked about building basic bar charts: Linking Animations together to Build Bar Charts in SwiftUI I am not going to post the final code again but I will show what we managed to build
+In short its an animated auto-coloured data-refreshing bar chart I kept it sweet and short but couldnt help but feel I wanted to do more
+Lets do a new brief based on the bar chart theme Here is a wish list:
+Currently the values are the labels I want to add a second textual label
+Currently I have no legends on either axis Lets try to add one
+I want to be able to dynamically remove bars leaving the others in place
+I want to be able to dynamically insert bars leaving the others in place
+I want to be able to present the bars sorted largest first or last (visually ideally)
+I want to be able to change the colours used for bars (ie override the auto-colouring)
+Some of these things are easy some less so  and at least one is going to be almost impossible  so lets get stuck in
+I going to start with text labels since bar charts showing just values arent that useful I want to add an axis label while Im about it too Were after this
+Animated bar chart with axis and labels
+OK its not perfect the axis shouldnt really be animated like that but its a move forward How did I do it Obviously its based on the code presented in the previous article only I swapped the axis added a text field as a second published object and made a few minor changes to the layout code
+Bon thats half the wish list already  told you some of the wishes are not so difficult What about the second half To do that I am going to use the Combine framework available in SwiftUI  and create a collection of actions with it
+var hideColumn  PassthroughSubjectStringNever()
+var showColumn  PassthroughSubjectStringNever()
+var changeColumn  PassthroughSubject(StringString)Never()
+var changeFigure  PassthroughSubject(StringInt)Never()
+And indeed add code to match those actions and change our bar chart Now I use a switch statement to test everything (SwiftUI  only)
+The code will tell the bar chart to hide two columns bring one back change a couple of column names and then change some of the values held against the grapes pineapples and peaches categories Lets watch it in action
+Animated bar chart with name changes value changes column changes
+There is still work to do but were making progress A couple of outstanding issues:
+When we hide a column unless we remove it it continues to take up space
+Obviously if we hide and remove a column then unfortunately there isnt a means to insert it back  yet
+When we change the values of the bars the moving of the index is not only very evident its positively annoying
+Lets keep going Continuing on the same path I can use the Combine framework to add three more actions to our code
+enum sortDirection 
+case accending decending
+ var changeColour  PassthroughSubject(String Color)Never()
+var insertColumn  PassthroughSubject(StringBool)Never()
+var sortColumns  PassthroughSubjectsortDirectionNever()
+Although wait  this shows up a flaw in our design You see although you can easily insert columns andor sort them the current data model treats these two items as individual elements strings and integers The old code looked like the following:
+final class Figures: ObservableObject 
+@Published var text  ""Apples""""Apricot""""Bananas""""Blueberry""""Figs""""Papaya""""Pears""""Pineapples""""Peaches""""Plums""
+@Published var numbers  
+static var shared  Figures()
+
+This is code we need to refactor obviously this also impacts the rest of our code too a little
+Given the numbers are now contained within a structure alongside the description we can easily sort them Lets run through some more tests using our case statement
+case :
+insertColumnsend((""Cherries""))
+case :
+sortColumnssend(accending)
+case :
+changeColoursend((""Cherries""yellow))
+The first click will tell our app to add a bar for cherries to the chart The second click will tell it to sort the bar chart numerically and the third will manually change the colour of the new cherries bar
+Animated bar chart showing columns added columns sorted column colour changed
+As before it isnt perfect Ideally we wanted to sort the bars on-screen and weve still got that axis moving across the screen Although that said I fear I have again run out of time We did manage to make an initial implementation of all six of the items on the wish list Pretty good going
+Here is the complete code for the project for you to look through and play with I may yet look into doing some more charts different types of charts Follow me and keep in the loop
+Homework: The sort is purely numeric but you could create one that was alphabetic The sort simply sorts ascending values so you could add a descending option The labels on the axis need fixing so that they stop moving about wildly An on-screen sort is maybe possible although I am not sure how yet  maybe you can find a solution The colours are linked to the values and it would be better to link them to the text labels
+Keep calm keep coding",['Programming']
+"Your sad emotions have been declined
+This is what I have been feeling these days I am having a rough time on several levels but society seems to reject sad emotions My emotions are not even sad I have been expressing my stressful moments at work and relationships with various people When I show my stress people tend to ignore or avoid the subject
+The past two weeks have been hectic and information overload I try to handle it but its been too much Ive been processing my emotions through tears
+Most people do not know how to handle this information and they omit this complete information I have been thinking if I was doing the same to others I think I attempt to somewhat relate to their emotions or at least respond to them It is hard to relate to other emotions than your others In particular if you are happy and someone else is not its challenging to relate However I just wanted a response such as Its gonna be better Cheer up Its ok to feel that
+Am I asking too much Im not sad all  hours of the day Its a new environment and Im feeling like things are slipping away and nothing is permanent Am I not allowed to say what I feel Am I obligated to be the happy person who people want to talk
+Maybe this is the reality Thanks a lot society! Ive learned something new again",['Life']
+"Love Goggles
+Now I know youve heard of beer goggles
+Photo by Akshat Jain on Unsplash
+In my line of work we also throw the term deployment goggles around To explain deployment goggles are when you deploy to a different country and you go so long without any type of attention or intimacy that it starts making people seem more attractive (I can attest to this I didnt want to believe it but then I lived it)
+Heres another for your goggle dictionary: Love Goggles
+I wear love goggles like its my job which isnt meant to sound braggy
+I was listening to a radio show a while back and the women were talking about how they couldnt follow through with the standards they set for themselves once they were in a relationship and they didnt know why
+Although I wanted nothing more than to call in and blow their minds with this concept I hate the way my voice sounds over the radio (forced to use a walkie-talkie at work) so I decided to write about it instead
+Well heres your easy answer  Love Goggles
+Love goggles are a little more complex than your everyday beer goggles or deployment goggles They not only cloud the physical aspects of your partner but also your own standards morals and even goals kind of like an emotional VR Headset
+You may be shaking your head right now thinking to yourself Love goggles no way but hear me out
+Have you ever put something you wanted on the back burner because you put the support of your significant other first
+Have you skipped your favorite Zumba class book club or girls night out because your significant other REALLY wanted you to do something else or maybe they expressed to you that they really dont like when you do those things
+Have you gone through a break-up where afterward you tell yourself youll never put up with anyone with certain characteristics but the next person you choose is showing you all the same red flags
+Heres a big one have you given up on a big dream of yours maybe a business idea change of career or going back to school because your significant other wasnt exactly supportive or motivating
+LOVE GOGGLES
+I guarantee that down the road youre going to take those love goggles off and regret letting the relationship sway your decision making
+Im guilty of this % when Im in a relationship I have a nasty habit of putting my significant other in front everything to include myself These relationships almost never last mostly because there isnt any sort of balance
+Your significant other should be swaying your decision making but not without notable evidence of why you should or shouldnt do things
+The biggest flaw of the emotional obscuring love goggles is you start to lose sight of yourself and can only see you and your other half as a pair You need to keep your individuality your goals and your dreams in order to keep your sanity and a healthy relationship
+Im not saying to take your love goggles off and never put them back on Im just saying that some days you may want to sit back and ask yourself if youre happy with your decsions Are you happy because you still have love and aren't lonely or are you happy because it was the best decision for you (first) and (then) your relationship
+We all need and want love but we also need it to be fair supportive and motivating not stressful harmful and harsh Sometimes its hard to see the flaws of a relationship (any kind of relationship) through the haze of love goggles",['Life']
+"Background
+In the previous article we analyzed the data representing the statistics of javascript during the year  The data visualization showed us how various types of javascript developers are distributed across the countries In this article we will look at linear and logistic regression mechanisms that can be applied to the data to predict the type of javascript developers and the various technologies that will gain more usage in the future We will particularly look at using several descriptive features given by the users to predict whether they work in AngularJS or not
+Data Preprocessing
+The combineddf used for visualizing various charts to see the data distribution will be again used for regression Since most of the descriptive features are categorical we will be using LabelEncoder to transform this to Numerical data This can be done in two ways:
+Use the LabelEncoder method from sklearnpreprocessing library:
+encoder  LabelEncoder()
+dfLE  combineddfapply(encoderfittransform)
+print('Replacing categories by numerical labels: ')
+print(dfLEhead())
+This method would replace all the categorical columnsfeatures with numeric features
+ Use replace to find the various categories and replace them with appropriate numeric value:
+filtereddf  combineddfcombineddf""yearlysalary""notna()
+cleanupnums  ""yearlysalary"":  ""workforfree"":  """":  """":  """":  """":  """":  ""morethan"": 
+filtereddfreplace(cleanupnums inplaceTrue)
+print(filtereddf)
+This method will transform the yearlysalary column to numeric
+The transformation would be done for yearlysalary  yearsofexperience  and jobtitle categorical features And these are the features we will be used for classifying the data We will also transform the column angular to predict how many users would be using angularjs given their descriptive features
+Logistic regression  linear model
+The first step is to apply a linear model for logistic regression This means we would try to see if the data can be fit using a straight line The logistic regression would give out a function that separates the two output classes of data (In our case whether the person codesuses AngularJs or not) Using a linear model we would get a function that represents a straight line
+from sklearnmodelselection import traintestsplit
+from sklearnlinearmodel import LogisticRegression
+import seaborn as sns
+from sklearn import metrics
+
+datareq  filtereddf:
+
+featurecolsreact  'yearlysalary' 'yearsofexperience' 'backendproficiency' 'cssproficiency'
+X  datareqfeaturecolsreact # Features
+y  datareq'angular' # Target variable
+
+Xtrain Xtest ytrain ytest  traintestsplit(Xytestsizerandomstate)
+
+logreg  LogisticRegression(solver  'lbfgs' Ce)
+logregfit(Xtrainytrain)
+
+
+ypredlogregpredict(Xtest)
+cnfmatrix  metricsconfusionmatrix(ytest ypred)
+print(""confusion matrix
+"" cnfmatrix)
+print(""Accuracy:""metricsaccuracyscore(ytest ypred))
+print(""Precision :""metricsprecisionscore(ytest ypred))
+print(""Recall:""metricsrecallscore(ytest ypred))
+In the above code:
+We are first selecting the set of columns to be used as descriptive features These include an array having the values yearlysalary yearsofexperience backendproficiency and cssproficiency Next we select the target we want to predict angular The data is now split into a training set and test set The logistic-regression function from sklearnlinearmodel is now used to fit the training data The test set can be used for the prediction and verification of our model
+Following are the metrics obtained:
+Accuracy of the classification: %
+Confusion matrix:
+We can see that the model is overfitting and is classifying every data point to be an angular js user In other words the number of false positives in the predicted data is very high
+Logistic regression  Polynomial model
+The linear model used for classifying data is overfitting The simpler way to solve this would be to provide different attributes as descriptive features and check their effect on the model The reason for overfitting can be:
+The amount of data used for training is less
+The Data has too many s compared to s for the Brown frogs
+The logistic regression is also sensitive to the outliers
+We can either use a different algorithm or try the polynomial logistic regression function:
+from sklearnmodelselection import traintestsplit
+from sklearnlinearmodel import LogisticRegression
+import seaborn as sns
+from sklearn import metrics
+from sklearnpreprocessing import PolynomialFeatures
+from sklearnpipeline import Pipeline
+
+datareq  filtereddf
+
+featurecolsreact  'yearlysalary' 'cssproficiency'
+X  datareqfeaturecolsreact # Features
+y  datareq'angular' # Target variable
+
+Xtrain Xtest ytrain ytest  traintestsplit(Xytestsizerandomstate)
+
+poly  PolynomialFeatures(degree   interactiononlyFalse includebiasFalse)
+Xpoly  polyfittransform(Xtrain)
+
+logreg  LogisticRegression(solver  'liblinear' multiclass  'ovr')
+logregfit(Xpolyytrain)
+
+Xpolytest  polytransform(Xtest)
+ypred  logregpredict(Xpolytest)
+
+ypredlogregpredict(Xpolytest)
+
+cnfmatrix  metricsconfusionmatrix(ytest ypred)
+print(""confusion matrix
+"" cnfmatrix)
+print(""Accuracy:""metricsaccuracyscore(ytest ypred))
+print(""Precision :""metricsprecisionscore(ytest ypred))
+print(""Recall:""metricsrecallscore(ytest ypred))
+The training set obtained by splitting the data is now transformed into the set of polynomial features of degree  This increases the number of features that would be used as independent variables The logistic regression function can now fit the model and predict the data
+Following are the metrics obtained:
+Accuracy of the classification: %
+Confusion matrix:
+We can see that the model is also overfitting however its accuracy has come down to % But note that this model is predicting the values in both categories and is not completely biased to one side This shows that logistic regression is sensitive to outliers is not the best type of algorithm that can be used for prediction We can use better ML algorithms In the next post let us explore SVMs and how they can be used to better predict the values from the same data",['Data Science']
+"Can You Really Get Writing Gigs Through Networking
+Photo by Volodymyr Hryshchenko on Unsplash
+My conversation with John (name changed for privacy reasons) changed the way I see networking
+John: Hey Sunder how are ya!
+Me: Im doing great! What about you
+Him: I just got married and bought a house! Whats new with you
+Me: Im a full-time writer now
+Him: Oh! Thats fantastic!
+Me: Yeah! I just got started recently Im looking for more work as I develop a strong portfolio
+Him: Id be happy to help! Here is a list of all of my contacts Take a look through them and see who you would like to get some work from and Ill introduce ya!
+Me: OMG! ARE YOU SERIOUS!
+Him: For sure! I like ya and I see potential in ya! Just let me know and well get the ball rollin!
+Me: (utterly shocked)  THANK YOU THANK YOU THANK YOU!
+Did I miss something here
+How did he know I would accept work through him
+Does this happen to other people
+Whatever the case may be I am now thoroughly enthralled with the idea of finding freelance writing gigs through networking You too can find freelance writing gigs with the following methods
+LinkedIn
+This is probably the best place to find freelance writing gigs online
+LinkedIn boasts a seemingly unlimited number of writing gigs from a wide ocean of contacts
+Want to get started Follow these steps:
+Make an account (if you dont already have one) Create your profile Start messaging people! Join some groups Write some posts
+Its all a numbers game from here but from what I hear other people get so much work from LinkedIn that they cant take on the work load themselves! Im sure youll find many writing opportunities here
+Social Media Profiles
+Photo by Sara Kurfe on Unsplash
+Facebook Instagram Pinterest Anywhere! All you need to do is make a profile and do some leg work People will gladly send work your way!
+Here are some popular platforms to find work through networking:
+Facebook
+Instagram
+Twitter
+Your friends and friends of friends will naturally come to you once they learn that youre a writer for hire Just make posts as normal about your work and let the magic happen!
+Networking Events
+Photo by Priscilla Du Preez on Unsplash
+You can meet people in person through networking events
+Speaking to someone in person gives that extra comfy feel that online introductions will always lack This is especially true for those lucky enough to be extroverts!
+Here are some places where you can find networking events:
+Eventbritecom
+Meetupcom
+Facebook Events
+College and university events
+Alumni events
+Organizational events
+Youre likely to find someone offering work at these events Its a great idea to keep searching!
+Word of Mouth
+Photo by Ben White on Unsplash
+This is one that shocked me today
+You dont even have to ask and a friend will see if they have work for you!
+Just be yourself and have a casual conversation with someone possibly over a few drinks The subject of work will come up and youll get the chance to talk about your work!
+Have you received work through your network before What else can you do to get more work through your network",['Writing']
