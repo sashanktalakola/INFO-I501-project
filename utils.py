@@ -1,30 +1,32 @@
 from dotenv import load_dotenv
 import replicate
+import os
+import requests
+from bs4 import BeautifulSoup
 
 load_dotenv()
 
-CLASSES = ["Data Science", "Cryptocurrency", "Bitcoin", "Poetry", "Life"]
+def get_article_data(page_url):
+    response = requests.get(page_url, headers={"User-Agent": "Mozilla/5.0"})
 
-def get_prompt(input_data, classes=CLASSES):
-    prompt = f'''Classify to which class does the data belong, classes - {", ".join(CLASSES)}. Assume single classification. Text to classify - {input_data}. Just output the class name.'''
-    return prompt
+    if response.status_code == 200:
+        page_content = response.text
+        soup = BeautifulSoup(page_content, 'html.parser')
+        paragraphs = soup.find_all('p')
 
-def get_response(prompt):
+        paragraphs = [paragraph.text for paragraph in paragraphs]
+        paragraphs = list(map(str.strip, paragraphs))
 
-    output = replicate.run(
-    "meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3",
-    input={
-        "debug": False,
-        "top_k": 50,
-        "top_p": 1,
-        "prompt": prompt,
-        "temperature": 0.5,
-        "max_new_tokens": 50,
-        "min_new_tokens": -1
-        }
-    )
+        try:
+            share_paragraph_index = paragraphs.index("Share")
+            paragraphs = paragraphs[share_paragraph_index+1:]
 
-    answer = [item for item in output]
-    answer = "".join(answer).strip().split(".")[0]
+            page_footer_index = paragraphs.index("--")
+            paragraphs = paragraphs[:page_footer_index]
+        except:
+            pass
+        all_paragraphs = " ".join(paragraphs)
 
-    return answer
+        return all_paragraphs
+    else:
+        return -1
