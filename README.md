@@ -5,6 +5,8 @@ This project aimed to develop a web application capable of automatically classif
 
 Stakeholders, including content publishers, researchers, and online platforms, would find our tool immensely useful for several reasons - **Efficient Content Organization** and **Targeted Content Delivery**
 
+Application URL - [Link]([URL](https://i501-final.sashanktalakola.com/))
+
 ## Data Description
 * **title** [*string*]: The title of the article.
 * **text** [*string*]: The text content of the article.

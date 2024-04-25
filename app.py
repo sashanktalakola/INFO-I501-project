@@ -58,6 +58,13 @@ with st.expander(label="**URL Input**", expanded=False):
                 except ConnectionError:
                     st.error("Please check your network conenction")
                 except:
-                    st.write("Please re-check the entered input data")
+                    st.warning("Please re-check the entered input data")
 
 st.write("GitHub Repo - https://github.com/sashanktalakola/INFO-I501-project/")
+st.write("")
+st.write("")
+st.write("")
+st.write("Note:")
+st.markdown("* The **Manual Text Input** option is for entering the data of the article manually. In the text area provided you can enter the article data and upon entring the data, click **Predict** to perform classification on the data provided")
+st.markdown("* In the **URL Input** option, you can enter a url for a website, and upon succesfully retreiving the contents of the page it will be displayed on the web interface and simulaneously the topic of the data will be classified. Please note, the parsing is based of `p` tags of the webpage, as they are often associated with content of the article and information in the rest of the tags will be not considered for prediction. When an invalid webpage is given as input the model returns `-1` indicating parsing the webpage, as warning will also be displayed.")
+st.markdown("* Please note, the LLM API is based of an free service hence the number of requests it limited. And repeated requests can cause to slow down, and in certain cases the API does not send any response.")
